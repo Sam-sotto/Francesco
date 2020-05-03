@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Infant', serif;
+    box-sizing: border-box;
+    background-color: rgba(158, 151, 151, 0.18);
+    
+}
+
+body h1, h2, h3, h4, h5 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+
+.containerr {
+    position: fixed; 
+    top: -50px;
+    transition: top 0.3s; 
+    margin-top: 27px;
+    height: 94px;
+    
+    
+}
+
+
+
+header .containerr {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #1a1c1d8f;
+    box-shadow:  0 2px 15px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+header .logo {
+	font-weight: normal;
+	color: rgba(255, 255, 255, 0.836);
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+header nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+header nav a:hover,
+header nav a.active {
+    color: rgba(253, 237, 237, 0.836);
+    background-color: rgba(221, 221, 221, 0.247);
+}
+
+/* ---- ----- ----- Main //Img // Ref ----- ----- ----- */
+
+.Img {
+    font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url('imagenes/Main.jpg');
+	background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: end;
+}
+
+#Title .logo {
+	color: rgba(255, 255, 255, 0.836);
+    font-size: 69px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 25px;
+    margin-top: 110px;
+
+    
+}
+
+/* ---- ----- ----- About //Img // Ref ----- ----- ----- */
+
+.container-2{
+    width: 90%;
+    text-align: center;
+  }
+  
+  .imga1 {
+    background-image: url('imagenes/about.jpg');
+    min-height: 40.62em;
+    background-size: cover;
+    padding: 5px 10px 5px 10px;
+    margin: 18px;
+    display:inline-block;
+    width: 452px;
+    text-align: center;
+    box-shadow:  0 2px 15px 5px rgba(0,0,0,0.16), 0 2px 10px 5px rgba(0,0,0,0.12);;
+  }
+
+  .imga2 {
+      padding: 5px 10px;
+      margin: 20px;
+      display: inline-block;
+      width: 300px;
+      font-size: 28px;
+      line-height: 35px;
+      color: #5c5a56;
+
+  }
+
+  .logo {
+    color: rgba(17, 20, 20, 0.856);
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+  }
+
+/* ---- ----- ----- Menu Section ----- ----- ----- */
+
+.Container-M {
+    background:linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url('imagenes/ppp.jpg');
+    font-size: 19px;
+	min-height: 40.62em;
+	background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 3.12em;
+    color: rgba(255, 255, 255, 0.836);
+  }
+
+.Container-M .menu-p, h1, h4 {
+    
+    text-align: center;
+}
+
+.Container-M .logo {
+    font-weight: normal;
+	color: rgba(255, 255, 255, 0.836);
+}
+
+/*           Reservation                */
+
+.reservation {
+    width: 100%;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+.column input, button {
+    width: 50%;
+    display: block;
+    margin : 0 auto;
+    margin-top: 30px;
+
+}
+.column button {
+    display: block;
+    margin: auto;
+    height: 45px;
+    
+}
+
+  
+  .dinner {
+        background-image: url('imagenes/Reservation-1.jpg');
+        min-height: 40.62em;
+        background-size: cover;
+        padding: 5px 10px;
+        margin: 18px;
+        display:inline-block;
+        width: 452px;
+        text-align: center;
+        box-shadow:  0 2px 15px 5px rgba(0,0,0,0.16), 0 2px 10px 5px rgba(0,0,0,0.12);;
+      }
+    
+
+/* --------------------------- Footer ----------- */
+
+.fufu h1 {
+    color: white;
+    font-weight: normal;
+    padding-top: 65px;
+    font-family: 'Fredericka the Great', cursive;
+}
+footer div {
+    background-color: rgb(41, 39, 39);
+    width: 100%;
+    height: 200px;
+}
+
+footer li  {
+    color: white;
+}
+
+footer #foot {
+    font-family: 'Fredericka the Great', cursive;
+    display: block;
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+footer #icons {
+    text-align: center;
+    letter-spacing: 21px;
+    cursor: pointer;
+}
+
+
+footer #created {
+    padding: 0;
+    margin: 0;
+}
